@@ -18,3 +18,6 @@ app.use("/", htmlRoutes);
 app.listen(PORT, () => console.log(`Listening on PORT: ${PORT}`));
 
 
+// npm install 
+// npm i express
+// npm i node
