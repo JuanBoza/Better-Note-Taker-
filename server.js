@@ -4,7 +4,7 @@ const express = require("express");
 const apiRoutes = require("./apiRoutes");
 const htmlRoutes = require("./htmlRoutes");
 const fs = require("fs");
-const uuidv1 = require("uuidv1");
+
 
 const app = express();
 const saveFile = "./db/db.json";
@@ -24,12 +24,6 @@ let noteList = fs.existsSync(saveFile)
   : [];
 
 
-
-
-  noteList.push(noteData);
-  console.log(noteData);
-  fs.writeFileSync(saveFile, JSON.stringify(noteList));
-  res.end();
 
 
 app.listen(PORT, () => {
