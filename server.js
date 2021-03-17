@@ -1,4 +1,4 @@
-var PORT = process.env.PORT || 5000;
+var PORT = process.env.PORT || 3001;
 
 const express = require("express");
 const apiRoutes = require("./apiRoutes");

@@ -1,26 +1,12 @@
 {
-  "name": "notes",
+  "name": "note",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JuanBoza/Note-Taker-.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JuanBoza/Note-Taker-/issues"
-  },
-  "homepage": "https://github.com/JuanBoza/Note-Taker-#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "heroku": "^7.50.0",
-    "require-stack": "^1.0.2"
+     "express": "^4.16.3"
+  },
+  "scripts": {
+    "start": "node server.js"
   }
 }
