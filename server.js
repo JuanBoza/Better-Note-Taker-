@@ -19,9 +19,7 @@ app.use(express.static("public"));
 app.use("/api", apiRoutes);
 app.use("/", htmlRoutes);
 
-let noteList = fs.existsSync(saveFile)
-  ? JSON.parse(fs.readFileSync(saveFile))
-  : [];
+
 
 
 
